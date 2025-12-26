@@ -1,0 +1,6 @@
+class Solution:
+    def distributeCandies(self, candy):
+        n = len(candy)
+        max = n // 2
+        unique = len(set(candy))
+        return min(unique, max)
